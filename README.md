@@ -1,39 +1,55 @@
-# Mohammad Dicky Darmawan — Portfolio
+# Mohammad Dicky Darmawan - Portfolio
 
-Personal portfolio website for Mohammad Dicky Darmawan, Front-End Developer.
+A modern, responsive portfolio website showcasing my projects, skills, and experience as a Junior Front End Developer.
 
-**Live site:** [mdickyd.github.io](https://mdickyd.github.io)
+## Features
+
+- **Dark/Light Mode Toggle** - Switch between themes with localStorage persistence
+- **Responsive Design** - Mobile-first approach, works on all devices
+- **Smooth Animations** - Scroll-triggered reveal animations
+- **Project Showcase** - Live demos and GitHub links for all projects
+- **Contact Section** - Multiple ways to get in touch
 
 ## Tech Stack
-- HTML5 (semantic structure)
-- CSS3 (dark theme, Cyan/Blue accent, mobile-first)
-- Vanilla JavaScript (no frameworks)
+
+- HTML5
+- CSS3 (Custom Properties, Flexbox, Grid)
+- Vanilla JavaScript (ES6+)
+- Font Awesome Icons
+- Google Fonts (Plus Jakarta Sans)
+
+## Projects Featured
+
+1. **Quiz Game** - Interactive quiz with real-time scoring
+2. **Kopi Senja** - Coffee shop website with modern design
+3. **CodingCamp Project** - Bootcamp training project
+4. **Gemini Chatbot API** - AI-powered chatbot integration
+
+## Local Development
+
+1. Clone the repository
+2. Open `index.html` in your browser
+3. No build process required!
 
 ## File Structure
+
 ```
-portofolio-dicky.github.io/
-├── index.html
+├── index.html          # Main HTML file
 ├── css/
-│   └── style.css
+│   └── style.css      # All styles in one file
 ├── js/
-│   └── main.js
+│   └── script.js      # All JavaScript in one file
 ├── images/
-│   └── profile.jpg      ← Replace with your actual photo
+│   └── profile.jpg    # Profile image
 └── README.md
 ```
 
-## Setup
-1. Add your profile photo as `images/profile.jpg`
-2. Place your resume PDF as `resume/CV_MohammadDickyDarmawan_EN.pdf`
-3. Open `index.html` in any modern browser
+## Contact
 
-## Features
-- Responsive dark-theme design
-- Smooth scroll & animated sections
-- Active navigation highlighting
-- Hamburger menu for mobile
-- Animated skill bars
-- Projects showcase with GitHub links
-- Certifications section
-- Contact links (WhatsApp, Email, LinkedIn)
-- Back-to-top button
+- **WhatsApp**: +62 821-3716-9851
+- **Email**: dicky.darmawan256@gmail.com
+- **LinkedIn**: [Mohammad Dicky Darmawan](https://www.linkedin.com/in/mohammad-dicky-darmawan-7abb9a3a7/)
+
+## License
+
+© 2026 Mohammad Dicky Darmawan. All rights reserved.

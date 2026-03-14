@@ -6,7 +6,7 @@
 (function () {
     'use strict';
 
-    /* ---------- Theme ---------- */
+    /* ---------- Theme Toggle ---------- */
     const THEME_KEY = 'portfolio_theme';
 
     function getStoredTheme() {
