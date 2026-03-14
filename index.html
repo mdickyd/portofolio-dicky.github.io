@@ -425,3 +425,434 @@
     <script src="js/main.js"></script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mohammad Dicky Darmawan — Front End Developer. Portfolio showcasing projects, skills, and experience in web development.">
+    <title>Mohammad Dicky Darmawan | Front End Developer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ===================== NAVBAR ===================== -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a href="#hero" class="logo">Dicky<span>.dev</span></a>
+
+            <div class="nav-center">
+                <ul class="nav-links" id="nav-links" role="list">
+                    <li><a href="#tech">Tech</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-actions">
+                <button class="icon-btn" id="theme-toggle" aria-label="Toggle light/dark theme">
+                    <i class="fas fa-sun" aria-hidden="true"></i>
+                </button>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO ===================== -->
+    <header class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="dot" aria-hidden="true"></span>
+                    Open for Collaboration
+                </div>
+                <h1>
+                    Mohammad Dicky<br>
+                    <span class="gradient-text">Darmawan</span>
+                </h1>
+                <p class="hero-role">Front End Developer &nbsp;·&nbsp; A.Md.Kom.</p>
+                <p class="hero-desc">
+                    D3 Informatics Management graduate from Universitas Amikom Yogyakarta,
+                    passionate about building clean, responsive, and user-friendly web experiences.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code" aria-hidden="true"></i> View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-ghost">
+                        <i class="fas fa-paper-plane" aria-hidden="true"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll" aria-hidden="true">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- ===================== TECH STACK ===================== -->
+    <section id="tech" class="section" aria-labelledby="tech-heading">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Skills</span>
+                <h2 class="section-title" id="tech-heading">Tech Stack</h2>
+                <p class="section-subtitle">Languages and tools I use to build modern web experiences.</p>
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-card reveal" data-tech="html">
+                    <i class="fab fa-html5 tech-icon" aria-hidden="true"></i>
+                    <span class="tech-name">HTML5</span>
+                </div>
+                <div class="tech-card reveal" data-tech="css">
+                    <i class="fab fa-css3-alt tech-icon" aria-hidden="true"></i>
+                    <span class="tech-name">CSS3</span>
+                </div>
+                <div class="tech-card reveal" data-tech="js">
+                    <i class="fab fa-js tech-icon" aria-hidden="true"></i>
+                    <span class="tech-name">JavaScript</span>
+                </div>
+                <div class="tech-card reveal" data-tech="laravel">
+                    <i class="fab fa-laravel tech-icon" aria-hidden="true"></i>
+                    <span class="tech-name">Laravel</span>
+                </div>
+                <div class="tech-card reveal" data-tech="git">
+                    <i class="fab fa-git-alt tech-icon" aria-hidden="true"></i>
+                    <span class="tech-name">Git</span>
+                </div>
+                <div class="tech-card reveal" data-tech="php">
+                    <i class="fab fa-php tech-icon" aria-hidden="true"></i>
+                    <span class="tech-name">PHP</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section id="projects" class="section projects-section" aria-labelledby="projects-heading">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title" id="projects-heading">Featured Projects</h2>
+                <p class="section-subtitle">A selection of projects I've built and published on GitHub.</p>
+            </div>
+
+            <div class="project-grid">
+
+                <!-- Project: Quiz Game -->
+                <article class="project-card reveal">
+                    <div class="project-header">
+                        <div class="project-icon" aria-hidden="true">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mdickyd/quiz-game" target="_blank" rel="noopener noreferrer"
+                               class="project-link" aria-label="View quiz-game on GitHub">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Quiz Game</h3>
+                        <p class="project-desc">
+                            An interactive React-based quiz application featuring multiple-choice questions,
+                            real-time scoring, and an engaging user experience for testing knowledge.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Quiz</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project: Kopi Senja -->
+                <article class="project-card reveal">
+                    <div class="project-header">
+                        <div class="project-icon" aria-hidden="true">
+                            <i class="fas fa-mug-hot"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mdickyd/kopi-senja" target="_blank" rel="noopener noreferrer"
+                               class="project-link" aria-label="View kopi-senja on GitHub">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Kopi Senja</h3>
+                        <p class="project-desc">
+                            A modern and responsive coffee shop web application built with PHP,
+                            showcasing a clean product catalog, menu display, and professional branding.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project: CodingCamp -->
+                <article class="project-card reveal">
+                    <div class="project-header">
+                        <div class="project-icon" aria-hidden="true">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mdickyd/CodingCamp-9Mar26-mohammaddickydarmawan" target="_blank" rel="noopener noreferrer"
+                               class="project-link" aria-label="View CodingCamp project on GitHub">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">CodingCamp Project</h3>
+                        <p class="project-desc">
+                            A structured web project developed during a coding bootcamp, demonstrating
+                            fundamental front-end development skills with semantic HTML and responsive CSS layouts.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Bootcamp</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project: Gemini Chatbot -->
+                <article class="project-card reveal">
+                    <div class="project-header">
+                        <div class="project-icon" aria-hidden="true">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mdickyd/gemini-chatbot-api" target="_blank" rel="noopener noreferrer"
+                               class="project-link" aria-label="View gemini-chatbot-api on GitHub">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Gemini Chatbot API</h3>
+                        <p class="project-desc">
+                            An AI-powered chatbot application integrating Google Gemini API,
+                            enabling intelligent conversational interactions through a clean JavaScript front-end interface.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Gemini API</span>
+                            <span class="tag">AI</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div><!-- /.project-grid -->
+        </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="section" aria-labelledby="about-heading">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About</span>
+                <h2 class="section-title" id="about-heading">About Me</h2>
+                <p class="section-subtitle">A bit about who I am and what I do.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-left reveal">
+                    <p class="about-intro">
+                        I'm a Front End Developer and D3 Informatics Management graduate from
+                        <strong>Universitas Amikom Yogyakarta</strong>. I enjoy crafting digital experiences
+                        that are both visually appealing and functionally solid — bridging business logic
+                        with modern web aesthetics.
+                    </p>
+                    <p class="about-intro">
+                        With internship experience spanning web development, data engineering, and banking
+                        administration, I bring a diverse perspective to every project I work on. I'm currently
+                        open to collaborations, freelance projects, and new opportunities.
+                    </p>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">4</div>
+                            <div class="stat-label">GitHub Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Internships</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2</div>
+                            <div class="stat-label">Certifications</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-right">
+                    <!-- Experience -->
+                    <div class="info-card reveal">
+                        <div class="info-card-title">
+                            <i class="fas fa-briefcase" aria-hidden="true"></i> Experience
+                        </div>
+                        <ul class="experience-list" aria-label="Work experience">
+                            <li class="experience-item">
+                                <div class="exp-icon" aria-hidden="true"><i class="fas fa-code"></i></div>
+                                <div class="exp-details">
+                                    <strong>Web Developer Intern</strong>
+                                    <span>Front-end development &amp; UI implementation</span>
+                                </div>
+                            </li>
+                            <li class="experience-item">
+                                <div class="exp-icon" aria-hidden="true"><i class="fas fa-database"></i></div>
+                                <div class="exp-details">
+                                    <strong>Data Engineer Intern</strong>
+                                    <span>Data workflow processing &amp; analysis</span>
+                                </div>
+                            </li>
+                            <li class="experience-item">
+                                <div class="exp-icon" aria-hidden="true"><i class="fas fa-university"></i></div>
+                                <div class="exp-details">
+                                    <strong>Banking Admin Intern</strong>
+                                    <span>Administrative operations &amp; data management</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="info-card reveal">
+                        <div class="info-card-title">
+                            <i class="fas fa-graduation-cap" aria-hidden="true"></i> Education
+                        </div>
+                        <ul class="experience-list" aria-label="Education">
+                            <li class="experience-item">
+                                <div class="exp-icon" aria-hidden="true"><i class="fas fa-university"></i></div>
+                                <div class="exp-details">
+                                    <strong>D3 Informatics Management</strong>
+                                    <span>Universitas Amikom Yogyakarta</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="info-card reveal">
+                        <div class="info-card-title">
+                            <i class="fas fa-certificate" aria-hidden="true"></i> Certifications
+                        </div>
+                        <ul class="cert-list" aria-label="Certifications">
+                            <li class="cert-item">
+                                <div class="exp-icon" aria-hidden="true"><i class="fas fa-code-branch"></i></div>
+                                <div class="exp-details">
+                                    <strong>Advanced Git Course</strong>
+                                    <span>DataCamp</span>
+                                </div>
+                            </li>
+                            <li class="cert-item">
+                                <div class="exp-icon" aria-hidden="true"><i class="fas fa-robot"></i></div>
+                                <div class="exp-details">
+                                    <strong>AI Productivity Course</strong>
+                                    <span>Hacktiv8</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /.about-grid -->
+        </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="section contact-section" aria-labelledby="contact-heading">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title" id="contact-heading">Let's Connect</h2>
+                <p class="section-subtitle">Have a project in mind or want to collaborate? Reach out — I'd love to chat!</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <p class="contact-lead">
+                    I'm currently open to freelance projects, collaborations, and new opportunities.
+                    Feel free to reach out through any of the channels below.
+                </p>
+
+                <div class="contact-cards">
+
+                    <a href="https://wa.me/6282137169851" target="_blank" rel="noopener noreferrer"
+                       class="contact-card reveal" aria-label="Chat on WhatsApp">
+                        <div class="contact-icon whatsapp" aria-hidden="true">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <span class="contact-card-label">WhatsApp</span>
+                        <span class="contact-card-value">+62 821-3716-9851</span>
+                        <span class="contact-card-btn">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i> Chat Now
+                        </span>
+                    </a>
+
+                    <a href="mailto:dicky.darmawan256@gmail.com"
+                       class="contact-card reveal" aria-label="Send an email">
+                        <div class="contact-icon email" aria-hidden="true">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <span class="contact-card-label">Email</span>
+                        <span class="contact-card-value">dicky.darmawan256@gmail.com</span>
+                        <span class="contact-card-btn">
+                            <i class="fas fa-paper-plane" aria-hidden="true"></i> Send Email
+                        </span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/mohammad-dicky-darmawan-7abb9a3a7/" target="_blank" rel="noopener noreferrer"
+                       class="contact-card reveal" aria-label="View LinkedIn profile">
+                        <div class="contact-icon linkedin" aria-hidden="true">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <span class="contact-card-label">LinkedIn</span>
+                        <span class="contact-card-value">Mohammad Dicky Darmawan</span>
+                        <span class="contact-card-btn">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i> View Profile
+                        </span>
+                    </a>
+
+                </div><!-- /.contact-cards -->
+            </div><!-- /.contact-wrapper -->
+        </div>
+    </section>
+
+    <!-- ===================== BACK TO TOP ===================== -->
+    <a href="#hero" class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    </a>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer>
+        <div class="container">
+            <p>
+                &copy; 2026 <a href="#hero">Mohammad Dicky Darmawan</a>.
+                Built with vanilla HTML, CSS &amp; JavaScript.
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
